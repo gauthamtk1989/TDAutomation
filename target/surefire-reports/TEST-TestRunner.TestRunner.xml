@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestRunner.TestRunner" time="409.14" tests="9" errors="3" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="15"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\Users\91900\.jenkins\TethDesi\target\test-classes;C:\Users\91900\.jenkins\TethDesi\target\classes;C:\Users\91900\.m2\repository\io\cucumber\cucumber-junit\6.7.0\cucumber-junit-6.7.0.jar;C:\Users\91900\.m2\repository\org\apiguardian\apiguardian-api\1.1.0\apiguardian-api-1.1.0.jar;C:\Users\91900\.m2\repository\junit\junit\4.13\junit-4.13.jar;C:\Users\91900\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\91900\.m2\repository\io\cucumber\cucumber-java\6.7.0\cucumber-java-6.7.0.jar;C:\Users\91900\.m2\repository\io\cucumber\cucumber-core\6.7.0\cucumber-core-6.7.0.jar;C:\Users\91900\.m2\repository\io\cucumber\cucumber-gherkin\6.7.0\cucumber-gherkin-6.7.0.jar;C:\Users\91900\.m2\repository\io\cucumber\cucumber-gherkin-messages\6.7.0\cucumber-gherkin-messages-6.7.0.jar;C:\Users\91900\.m2\repository\io\cucumber\messages\13.0.1\messages-13.0.1.jar;C:\Users\91900\.m2\repository\io\cucumber\tag-expressions\3.0.0\tag-expressions-3.0.0.jar;C:\Users\91900\.m2\repository\io\cucumber\cucumber-expressions\10.3.0\cucumber-expressions-10.3.0.jar;C:\Users\91900\.m2\repository\io\cucumber\datatable\3.4.0\datatable-3.4.0.jar;C:\Users\91900\.m2\repository\io\cucumber\cucumber-plugin\6.7.0\cucumber-plugin-6.7.0.jar;C:\Users\91900\.m2\repository\io\cucumber\docstring\6.7.0\docstring-6.7.0.jar;C:\Users\91900\.m2\repository\io\cucumber\html-formatter\9.0.0\html-formatter-9.0.0.jar;C:\Users\91900\.m2\repository\io\cucumber\create-meta\2.0.2\create-meta-2.0.2.jar;C:\Users\91900\.m2\repository\org\seleniumhq\selenium\selenium-java\3.141.59\selenium-java-3.141.59.jar;C:\Users\91900\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.141.59\selenium-chrome-driver-3.141.59.jar;C:\Users\91900\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.141.59\selenium-edge-driver-3.141.59.jar;C:\Users\91900\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.141.59\selenium-firefox-driver-3.141.59.jar;C:\Users\91900\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.141.59\selenium-ie-driver-3.141.59.jar;C:\Users\91900\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.141.59\selenium-opera-driver-3.141.59.jar;C:\Users\91900\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.141.59\selenium-remote-driver-3.141.59.jar;C:\Users\91900\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.141.59\selenium-safari-driver-3.141.59.jar;C:\Users\91900\.m2\repository\org\seleniumhq\selenium\selenium-support\3.141.59\selenium-support-3.141.59.jar;C:\Users\91900\.m2\repository\net\bytebuddy\byte-buddy\1.8.15\byte-buddy-1.8.15.jar;C:\Users\91900\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\91900\.m2\repository\com\google\guava\guava\25.0-jre\guava-25.0-jre.jar;C:\Users\91900\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;C:\Users\91900\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar;C:\Users\91900\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar;C:\Users\91900\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\Users\91900\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\Users\91900\.m2\repository\com\squareup\okhttp3\okhttp\3.11.0\okhttp-3.11.0.jar;C:\Users\91900\.m2\repository\com\squareup\okio\okio\1.14.0\okio-1.14.0.jar;C:\Users\91900\.m2\repository\org\seleniumhq\selenium\selenium-api\3.141.59\selenium-api-3.141.59.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="java.vm.specification.version" value="15"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="IN"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-15\bin"/>
+    <property name="sun.java.command" value="C:\Users\91900\AppData\Local\Temp\surefire12087493294130610035\surefirebooter12498268337522321084.jar C:\Users\91900\AppData\Local\Temp\surefire12087493294130610035 2020-10-01T10-46-38_021-jvmRun1 surefire14185673553952516156tmp surefire_010660901140784916717tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="C:\Users\91900\.jenkins\TethDesi\target\test-classes;C:\Users\91900\.jenkins\TethDesi\target\classes;C:\Users\91900\.m2\repository\io\cucumber\cucumber-junit\6.7.0\cucumber-junit-6.7.0.jar;C:\Users\91900\.m2\repository\org\apiguardian\apiguardian-api\1.1.0\apiguardian-api-1.1.0.jar;C:\Users\91900\.m2\repository\junit\junit\4.13\junit-4.13.jar;C:\Users\91900\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\91900\.m2\repository\io\cucumber\cucumber-java\6.7.0\cucumber-java-6.7.0.jar;C:\Users\91900\.m2\repository\io\cucumber\cucumber-core\6.7.0\cucumber-core-6.7.0.jar;C:\Users\91900\.m2\repository\io\cucumber\cucumber-gherkin\6.7.0\cucumber-gherkin-6.7.0.jar;C:\Users\91900\.m2\repository\io\cucumber\cucumber-gherkin-messages\6.7.0\cucumber-gherkin-messages-6.7.0.jar;C:\Users\91900\.m2\repository\io\cucumber\messages\13.0.1\messages-13.0.1.jar;C:\Users\91900\.m2\repository\io\cucumber\tag-expressions\3.0.0\tag-expressions-3.0.0.jar;C:\Users\91900\.m2\repository\io\cucumber\cucumber-expressions\10.3.0\cucumber-expressions-10.3.0.jar;C:\Users\91900\.m2\repository\io\cucumber\datatable\3.4.0\datatable-3.4.0.jar;C:\Users\91900\.m2\repository\io\cucumber\cucumber-plugin\6.7.0\cucumber-plugin-6.7.0.jar;C:\Users\91900\.m2\repository\io\cucumber\docstring\6.7.0\docstring-6.7.0.jar;C:\Users\91900\.m2\repository\io\cucumber\html-formatter\9.0.0\html-formatter-9.0.0.jar;C:\Users\91900\.m2\repository\io\cucumber\create-meta\2.0.2\create-meta-2.0.2.jar;C:\Users\91900\.m2\repository\org\seleniumhq\selenium\selenium-java\3.141.59\selenium-java-3.141.59.jar;C:\Users\91900\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.141.59\selenium-chrome-driver-3.141.59.jar;C:\Users\91900\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.141.59\selenium-edge-driver-3.141.59.jar;C:\Users\91900\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.141.59\selenium-firefox-driver-3.141.59.jar;C:\Users\91900\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.141.59\selenium-ie-driver-3.141.59.jar;C:\Users\91900\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.141.59\selenium-opera-driver-3.141.59.jar;C:\Users\91900\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.141.59\selenium-remote-driver-3.141.59.jar;C:\Users\91900\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.141.59\selenium-safari-driver-3.141.59.jar;C:\Users\91900\.m2\repository\org\seleniumhq\selenium\selenium-support\3.141.59\selenium-support-3.141.59.jar;C:\Users\91900\.m2\repository\net\bytebuddy\byte-buddy\1.8.15\byte-buddy-1.8.15.jar;C:\Users\91900\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\91900\.m2\repository\com\google\guava\guava\25.0-jre\guava-25.0-jre.jar;C:\Users\91900\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;C:\Users\91900\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar;C:\Users\91900\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar;C:\Users\91900\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\Users\91900\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\Users\91900\.m2\repository\com\squareup\okhttp3\okhttp\3.11.0\okhttp-3.11.0.jar;C:\Users\91900\.m2\repository\com\squareup\okio\okio\1.14.0\okio-1.14.0.jar;C:\Users\91900\.m2\repository\org\seleniumhq\selenium\selenium-api\3.141.59\selenium-api-3.141.59.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\91900"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2020-09-15"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-15"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="C:\Users\91900\.jenkins\TethDesi"/>
+    <property name="java.vm.compressedOopsMode" value="32-bit"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="C:\Users\91900\AppData\Local\Temp\surefire12087493294130610035\surefirebooter12498268337522321084.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="15+36-1562"/>
+    <property name="user.name" value="91900"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\91900\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\91900\AppData\Local\Temp\"/>
+    <property name="java.version" value="15"/>
+    <property name="user.dir" value="C:\Users\91900\.jenkins\TethDesi"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-15\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Users\91900\Downloads\apache-maven-3.6.3-bin\apache-maven-3.6.3/bin;C:\Program Files\Java\jdk-15/bin;C:\Program Files\Java\jdk-15/bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\system32\Wbem;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files (x86)\QuickTime\QTSystem\;C:\Users\91900\anaconda3;C:\Users\91900\anaconda3\Library\mingw-w64\bin;C:\Users\91900\anaconda3\Library\usr\bin;C:\Users\91900\anaconda3\Library\bin;C:\Users\91900\anaconda3\Scripts;C:\Users\91900\AppData\Local\Programs\Python\Python38-32\Scripts\;C:\Users\91900\AppData\Local\Programs\Python\Python38-32\;C:\Users\91900\Downloads\apache-maven-3.6.3-bin\apache-maven-3.6.3/BIN;C:\Users\91900\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\91900\AppData\Local\Microsoft\WindowsApps;."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="15+36-1562"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="59.0"/>
+  </properties>
+  <testcase name="Login and clicks on Daily link video #1" classname="Automate Clicking the Video" time="109.824">
+    <error message="no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//*[@id=&apos;menu1&apos;]/li[4]/a&quot;}&#10;  (Session info: chrome=85.0.4183.102)&#10;For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;DESKTOP-15K238C&apos;, ip: &apos;192.168.56.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;15&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.102, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: C:\Users\91900\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:52265}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}&#10;Session ID: 085d5331319aa9ccfa2d1cf4b2689fd8&#10;*** Element info: {Using=xpath, value=//*[@id=&apos;menu1&apos;]/li[4]/a}" type="org.openqa.selenium.NoSuchElementException"><![CDATA[org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id='menu1']/li[4]/a"}
+  (Session info: chrome=85.0.4183.102)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-15K238C', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.102, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: C:\Users\91900\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:52265}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 085d5331319aa9ccfa2d1cf4b2689fd8
+*** Element info: {Using=xpath, value=//*[@id='menu1']/li[4]/a}
+]]></error>
+    <system-err><![CDATA[Starting ChromeDriver 84.0.4147.30 (48b3e868b4cc0aa7e8149519690b6f6949e110a8-refs/branch-heads/4147@{#310}) on port 48321
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+[1601529404.344][WARNING]: This version of ChromeDriver has not been tested with Chrome version 85.
+Oct 01, 2020 10:46:44 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="Login and clicks on Daily link video #2" classname="Automate Clicking the Video" time="36.353">
+    <system-err><![CDATA[Starting ChromeDriver 84.0.4147.30 (48b3e868b4cc0aa7e8149519690b6f6949e110a8-refs/branch-heads/4147@{#310}) on port 31360
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+[1601529512.029][WARNING]: This version of ChromeDriver has not been tested with Chrome version 85.
+Oct 01, 2020 10:48:32 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="Login and clicks on Daily link video #3" classname="Automate Clicking the Video" time="37.929">
+    <system-err><![CDATA[Starting ChromeDriver 84.0.4147.30 (48b3e868b4cc0aa7e8149519690b6f6949e110a8-refs/branch-heads/4147@{#310}) on port 8385
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+[1601529548.366][WARNING]: This version of ChromeDriver has not been tested with Chrome version 85.
+Oct 01, 2020 10:49:08 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="Login and clicks on Daily link video #4" classname="Automate Clicking the Video" time="34.815">
+    <system-err><![CDATA[Starting ChromeDriver 84.0.4147.30 (48b3e868b4cc0aa7e8149519690b6f6949e110a8-refs/branch-heads/4147@{#310}) on port 20790
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+[1601529586.300][WARNING]: This version of ChromeDriver has not been tested with Chrome version 85.
+Oct 01, 2020 10:49:46 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="Login and clicks on Daily link video #5" classname="Automate Clicking the Video" time="34.895">
+    <system-err><![CDATA[Starting ChromeDriver 84.0.4147.30 (48b3e868b4cc0aa7e8149519690b6f6949e110a8-refs/branch-heads/4147@{#310}) on port 13401
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+[1601529621.261][WARNING]: This version of ChromeDriver has not been tested with Chrome version 85.
+Oct 01, 2020 10:50:21 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="Login and clicks on Daily link video #6" classname="Automate Clicking the Video" time="53.939">
+    <error message="No frame element found by name or id player&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;DESKTOP-15K238C&apos;, ip: &apos;192.168.56.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;15&apos;&#10;Driver info: driver.version: unknown" type="org.openqa.selenium.NoSuchFrameException"><![CDATA[org.openqa.selenium.NoSuchFrameException: 
+No frame element found by name or id player
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-15K238C', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15'
+Driver info: driver.version: unknown
+]]></error>
+    <system-err><![CDATA[Starting ChromeDriver 84.0.4147.30 (48b3e868b4cc0aa7e8149519690b6f6949e110a8-refs/branch-heads/4147@{#310}) on port 11637
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+[1601529656.167][WARNING]: This version of ChromeDriver has not been tested with Chrome version 85.
+Oct 01, 2020 10:50:56 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="Login and clicks on Daily link video #7" classname="Automate Clicking the Video" time="53.743">
+    <error message="No frame element found by name or id player&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;DESKTOP-15K238C&apos;, ip: &apos;192.168.56.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;15&apos;&#10;Driver info: driver.version: unknown" type="org.openqa.selenium.NoSuchFrameException"><![CDATA[org.openqa.selenium.NoSuchFrameException: 
+No frame element found by name or id player
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-15K238C', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15'
+Driver info: driver.version: unknown
+]]></error>
+    <system-err><![CDATA[Starting ChromeDriver 84.0.4147.30 (48b3e868b4cc0aa7e8149519690b6f6949e110a8-refs/branch-heads/4147@{#310}) on port 9228
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+[1601529709.997][WARNING]: This version of ChromeDriver has not been tested with Chrome version 85.
+Oct 01, 2020 10:51:50 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="Login and clicks on Daily link video #8" classname="Automate Clicking the Video" time="22.098">
+    <system-err><![CDATA[Starting ChromeDriver 84.0.4147.30 (48b3e868b4cc0aa7e8149519690b6f6949e110a8-refs/branch-heads/4147@{#310}) on port 5605
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+[1601529763.857][WARNING]: This version of ChromeDriver has not been tested with Chrome version 85.
+Oct 01, 2020 10:52:44 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="Login and clicks on Daily link video #9" classname="Automate Clicking the Video" time="24.53">
+    <system-err><![CDATA[Starting ChromeDriver 84.0.4147.30 (48b3e868b4cc0aa7e8149519690b6f6949e110a8-refs/branch-heads/4147@{#310}) on port 17933
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+[1601529785.955][WARNING]: This version of ChromeDriver has not been tested with Chrome version 85.
+Oct 01, 2020 10:53:06 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+</testsuite>
